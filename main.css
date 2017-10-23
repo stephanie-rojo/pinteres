@@ -1,0 +1,894 @@
+/* contenedor del bloque principal*/
+.contenedor{
+  background: white;
+  /*border:1px solid blue;*/
+  height: 60px;
+  overflow: hidden;
+  clear: both;
+}
+
+/* creando línea de separación*/
+hr{
+  border-top: 1px solid #D3D3D3;
+  overflow: hidden;
+  clear: both;
+  position: relative;
+  top: -20px;
+
+}
+/* bloque de barra buscador*/
+.buscador{
+  background:#EFEFEF;
+  border:1px solid #EFEFEF;
+  border-radius: 5px;
+  height: 40px;
+  width: 800px;
+  position: relative;
+  left: 100px;
+  top: -75px;
+  overflow: hidden;
+  clear: both;
+}
+
+.pinterest{
+ font-size:30px;
+ color: #BD081C;
+ position: absolute;
+ top: 20px;
+ left: 60px;
+}
+.iderecha{
+  font-size:25px;
+  color: #B5B5B5;
+  position: relative;
+  top: 20px;
+  left: 950px;
+}
+.icentro{
+  font-size:25px;
+  color: #B5B5B5;
+  position: relative;
+  top: -10px;
+  left: 1010px;
+}
+
+.iizquierda{
+  font-size:25px;
+  color: #B5B5B5;
+  position: relative;
+  top: -40px;
+  left: 1070px;
+
+}
+
+.lupa{
+  font-size:20px;
+  color: black;
+  position:absolute;
+  left: 50px;
+  top: 8px;
+}
+
+.texto{
+  color: #757575;
+  font-size: 20px ;
+  font-family: sans-serif;
+  position: absolute;
+  left: 70px;
+  top: -11px;
+
+}
+
+.equiz{
+float: right;
+position: absolute;
+right: 90px;
+top: 10px;
+
+
+}
+.texto1{
+  color: black;
+  font-size: 15px ;
+  font-family: sans-serif;
+  font-weight: bold;
+  position: absolute;
+  right: 30px;
+  top: -4px;
+}
+
+.seguidor{
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+/*creando bloque menu*/
+.menu{
+  background: white;
+  /*border:1px solid blue;*/
+  height: 70px;
+  position:relative;
+  top: -28px;
+  width:
+  overflow: hidden;
+  clear: both;
+}
+
+ .casilla1{
+   float: left;
+   width: 140px;
+   border-radius: 5px;
+   height: 60px;
+   background:#746150;
+   position: relative;
+   top: 9px;
+   left: 50px;
+ }
+
+ .p1{
+   color:white;
+   font-size: 15px ;
+   font-family: sans-serif;
+   position: absolute;
+   left: 25px;
+   top: 5px;
+   font-weight: 700;
+ }
+
+ .casilla2{
+   float: left;
+   margin-left: 60px;
+   width: 110px;
+   border-radius: 5px;
+   height: 60px;
+   background:#AB8B6F;
+   position: relative;
+   top: 9px;
+ }
+
+ .p2{
+   color:white;
+   font-size: 15px ;
+   font-family: sans-serif;
+   position: absolute;
+   left: 25px;
+   top: 7px;
+   font-weight: 700;
+ }
+
+ .casilla3{
+   float: left;
+   margin-left:10px;
+   width: 90px;
+   border-radius: 5px;
+   height: 60px;
+   background:#83745C;
+   position: relative;
+   top: 9px;
+ }
+ .p3{
+   color:white;
+   font-size: 15px ;
+   font-family: sans-serif;
+   position: absolute;
+   left: 25px;
+   top: 7px;
+   font-weight:700;
+ }
+
+ .casilla4{
+   float: left;
+   margin-left:10px;
+   width: 70px;
+   border-radius: 5px;
+   height: 60px;
+   background:#907054;
+   position: relative;
+   top: 9px;
+ }
+
+ .p4{
+   color:white;
+   font-size: 15px ;
+   font-family: sans-serif;
+   position: absolute;
+   left: 21px;
+   top: 8px;
+   font-weight:700;
+ }
+
+ .casilla5{
+   float: left;
+   margin-left:10px;
+   width: 130px;
+   border-radius: 5px;
+   height: 60px;
+   background:#999349;
+   position: relative;
+   top: 9px;
+ }
+
+ .p5{
+   color:white;
+   font-size: 15px ;
+   font-family: sans-serif;
+   position: absolute;
+   left: 18px;
+   top: 8px;
+   font-weight:700;
+ }
+
+ .casilla6{
+   float: left;
+   margin-left:10px;
+   width: 110px;
+   border-radius: 5px;
+   height: 60px;
+   background:#83745C;
+   position: relative;
+   top: 9px;
+ }
+
+ .p6{
+   color:white;
+   font-size: 15px ;
+   font-family: sans-serif;
+   position: absolute;
+   left: 25px;
+   top: 7px;
+   font-weight:700;
+ }
+
+ .casilla7{
+   float: left;
+   margin-left:10px;
+   width: 80px;
+   border-radius: 5px;
+   height: 60px;
+   background:#857F81;
+   position: relative;
+   top: 9px;
+ }
+
+ .p7{
+   color:white;
+   font-size: 15px ;
+   font-family: sans-serif;
+   position: absolute;
+   left: 20px;
+   top: 7px;
+   font-weight:700;
+ }
+
+ .casilla8{
+   float: left;
+   margin-left:10px;
+   width: 110px;
+   border-radius: 5px;
+   height: 60px;
+   background:#907054;
+   position: relative;
+   top: 9px;
+ }
+
+ .p8{
+   color:white;
+   font-size: 15px ;
+   font-family: sans-serif;
+   position: absolute;
+   left: 25px;
+   top: 7px;
+   font-weight:700;
+ }
+
+ .casilla9{
+   float: left;
+   margin-left:10px;
+   width: 100px;
+   border-radius: 5px;
+   height: 60px;
+   background:#B17E76;
+   position: relative;
+   top: 9px;
+ }
+
+ .p9{
+   color:white;
+   font-size: 15px ;
+   font-family: sans-serif;
+   position: absolute;
+   left: 25px;
+   top: 7px;
+   font-weight:700;
+ }
+
+/* creando bloque de imagenes*/
+
+ .imagenes{
+   background: white;
+   /*border:1px solid blue;*/
+   clear: both;
+   overflow: hidden;
+   position: relative;
+   top: -20px;
+   height: 9000px;
+ }
+
+ .imag1{
+   float: left;
+   height:550px;
+   width:250px;
+   margin:30px ;
+   border-radius: 20px;
+   position: relative;
+   top: -20px;
+   overflow: hidden;
+ }
+
+ .imag2{
+   float: left;
+   height:5000px;
+   width:250px;
+   position: relative;
+   top: 15px;
+   left: -10px ;
+   border-radius: 20px;
+   overflow: hidden;
+ }
+
+ .imag3{
+   float: left;
+   height:1600px;
+   width:250px;
+   position: relative;
+   top: 15px;
+   left:8px ;
+   border-radius: 20px;
+   overflow: hidden;
+ }
+
+ .imag4{
+   float: left;
+   height:800px;
+   width:250px;
+   position: relative;
+   top: 15px;
+   left:25px ;
+   border-radius: 20px;
+   overflow: hidden;
+ }
+
+.ib{
+  float: left;
+  height:120px;
+  width:250px;
+  position: relative;
+  top: -4435px;
+  left: 30px;
+  border-radius: 20px;
+  clear: both;
+  overflow: hidden;
+}
+
+.ic{
+  float: left;
+  height:160px;
+  width:250px;
+  position: relative;
+  top: 20px;
+  left: 50px;
+  border-radius: 20px;
+  overflow: hidden;
+}
+.id{
+  float: left;
+  height:160px;
+  width:250px;
+  position: relative;
+  top: -3380px;
+  left: 70px;
+  border-radius: 20px;
+  overflow: hidden;
+}
+.ie{
+  float: left;
+  height:300px;
+  width:250px;
+  position: relative;
+  top: -4180px;
+  left: 90px;
+  border-radius: 20px;
+  overflow: hidden;
+}
+ .imag5{
+   float: left;
+   height:300px;
+   width:250px;
+   position: relative;
+   top: -4620px;
+   left: 30px;
+   border-radius: 20px;
+   clear: both;
+   overflow: hidden;
+ }
+ .imag6{
+   float: left;
+   height:900px;
+   width:250px;
+   position: relative;
+   top: -120px;
+   left: 40px;
+   border-radius: 20px;
+   overflow: hidden;
+ }
+
+ .imag7{
+   float: left;
+   height:2000px;
+   width:250px;
+   position: relative;
+   top: -3520px;
+   left: 70px;
+   border-radius: 20px;
+   overflow: hidden;
+ }
+ .imag8{
+   float: left;
+   height:700px;
+   width:250px;
+   position: relative;
+   top: -4180px;
+   left: 90px;
+   border-radius: 20px;
+   overflow: hidden;
+ }
+ .if{
+   float: left;
+   height:120px;
+   width:250px;
+   position: relative;
+   top: -6320px;
+   left: 30px;
+   border-radius: 20px;
+   clear: both;
+   overflow: hidden;
+ }
+ .ig{
+   float: left;
+   height:160px;
+   width:250px;
+   position: relative;
+   top: -1220px;
+   left: 40px;
+   border-radius: 20px;
+   overflow: hidden;
+ }
+ .ih{
+   float: left;
+   height:170px;
+   width:250px;
+   position: relative;
+   top: -3520px;
+   left: 70px;
+   border-radius: 20px;
+   overflow: hidden;
+ }
+
+ .ii{
+   float: left;
+   height:320px;
+   width:250px;
+   position: relative;
+   top: -5480px;
+   left: 90px;
+   border-radius: 20px;
+   overflow: hidden;
+ }
+ .imag9{
+   float: left;
+   height:300px;
+   width:250px;
+   margin:30px ;
+   border-radius: 20px;
+   position: relative;
+   top: -6550px;
+   overflow: hidden;
+ }
+
+ .imag10{
+   float: left;
+   height:5000px;
+   width:250px;
+   position: relative;
+   top: 15px;
+   left: -10px ;
+   border-radius: 20px;
+   overflow: hidden;
+ }
+
+ .imag11{
+   float: left;
+   height:-1600px;
+   width:250px;
+   position: relative;
+   top: -3680px;
+   left:8px ;
+   border-radius: 20px;
+   overflow: hidden;
+ }
+
+ .imag12{
+   float: left;
+   height:200px;
+   width:250px;
+   position: relative;
+   top: -5480px;
+   left:25px ;
+   border-radius: 20px;
+   overflow: hidden;
+ }
+.ik{
+  float: left;
+  height:130px;
+  width:250px;
+  position: relative;
+  top: -11220px;
+  left: 30px;
+  border-radius: 20px;
+  overflow: hidden;
+  clear: both;
+}
+
+.imag10{
+  float: left;
+  height:5000px;
+  width:250px;
+  position: relative;
+  top: 15px;
+  left: -10px ;
+  border-radius: 20px;
+  overflow: hidden;
+}
+.il{
+  float: left;
+  height:100px;
+  width:200px;
+  position: relative;
+  top: -12920px;
+  left: 570px;
+  border-radius: 20px;
+  overflow: hidden;
+  clear: both;
+}
+
+.im{
+  float: left;
+  height:140px;
+  width:220px;
+  position: relative;
+  top: -15375px;
+  left: 830px;
+  border-radius: 20px;
+  overflow: hidden;
+  clear: both;
+}
+
+.imag13{
+  float: left;
+  height:1200px;
+  width:250px;
+  margin:20px ;
+  border-radius: 20px;
+  position: relative;
+  top: -16360px;
+  left: 12px;
+  overflow: hidden;
+  clear: both;
+  }
+
+  .imag14{
+    float: left;
+    height:1000px;
+    width:250px;
+    margin:20px ;
+    border-radius: 20px;
+    position: relative;
+    top: -14330px;
+    left: 550px;
+    overflow: hidden;
+    clear: both;
+    }
+
+    .imag15{
+      float: left;
+      height:400px;
+      width:250px;
+      margin:20px ;
+      border-radius: 20px;
+      position: relative;
+      top: -17670px;
+      left: 800px;
+      overflow: hidden;
+      clear: both;
+
+    }
+    .in{
+      float: left;
+      height:120px;
+      width:250px;
+      position: relative;
+      top: -17420px;
+      left: -260px;
+      border-radius: 20px;
+      overflow: hidden;
+    }
+    .in{
+      float: left;
+      height:150px;
+      width:250px;
+      position: relative;
+      top: -17420px;
+      left: -260px;
+      border-radius: 20px;
+      overflow: hidden;
+    }
+.io{
+  float: left;
+  height:300px;
+  width:250px;
+  position: relative;
+  top: -14350px;
+  left: 10px;
+  border-radius: 20px;
+  overflow: hidden;
+}
+.ip{
+  float: left;
+  height:200px;
+  width:250px;
+  position: relative;
+  top: -17260px;
+  left: 40px;
+  border-radius: 20px;
+  overflow: hidden;
+}
+.imag16{
+  float: left;
+  height:1700px;
+  width:250px;
+  position: relative;
+  top: -17470px;
+  left: -760px;
+  border-radius: 20px;
+  overflow: hidden;
+}
+.iq{
+  float: left;
+  height:200px;
+  width:250px;
+  position: relative;
+  top: -17450px;
+  left: 20px;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.imag17{
+  float: left;
+  height:1500px;
+  width:250px;
+  position: relative;
+  top: -17250px;
+  left: -230px;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.ir{
+  float: left;
+  height:300px;
+  width:260px;
+  position: relative;
+  top: -15750px;
+  left: -490px;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.imag18{
+  float: left;
+  height:400px;
+  width:250px;
+  position: relative;
+  top: -15450px;
+  left: -740px;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.is{
+  float: left;
+  height:150px;
+  width:260px;
+  position: relative;
+  top: -15450px;
+  left: -490px;
+  border-radius: 20px;
+  overflow: hidden;
+}
+.imag19{
+  float: left;
+  height:1000px;
+  width:250px;
+  position: relative;
+  top: -15320px;
+  left: -740px;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.it{
+  float: left;
+  height:200px;
+  width:260px;
+  position: relative;
+  top: -15320px;
+  left: -490px;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.imag20{
+  float: left;
+  height:400px;
+  width:250px;
+  position: relative;
+  top: -15120px;
+  left: -740px;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.iu{
+  float: left;
+  height:160px;
+  width:260px;
+  position: relative;
+  top: -15120px;
+  left: 10px;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.imag21{
+  float: left;
+  height:1200px;
+  width:250px;
+  position: relative;
+  top: -20760px;
+  left: 590px;
+  border-radius: 20px;
+  overflow: hidden;
+  }
+
+  .iw{
+    float: left;
+    height:130px;
+    width:260px;
+    position: relative;
+    top: -19700px;
+    left: 340px;
+    border-radius: 20px;
+    overflow: hidden;
+  }
+
+  .imag22{
+    float: left;
+    height:500px;
+    width:250px;
+    position: relative;
+    top: -19580px;
+    left: 70px;
+    border-radius: 20px;
+    overflow: hidden;
+  }
+
+  .ix{
+    float: left;
+    height:150px;
+    width:260px;
+    position: relative;
+    top: -19580px;
+    left: 320px;
+    border-radius: 20px;
+    overflow: hidden;
+  }
+
+  .imag23{
+    float: left;
+    height:250px;
+    width:250px;
+    position: relative;
+    top: -19430px;
+    left: 70px;
+    border-radius: 20px;
+    overflow: hidden;
+  }
+
+  .iz{
+    float: left;
+    height:200px;
+    width:250px;
+    position: relative;
+    top: -19420px;
+    left: 330px;
+    border-radius: 20px;
+    overflow: hidden;
+  }
+
+  .imag24{
+    float: left;
+    height:600px;
+    width:250px;
+    position: relative;
+    top: -19230px;
+    left: 70px;
+    border-radius: 20px;
+    overflow: hidden;
+  }
+
+  .i1{
+    float: left;
+    height:150px;
+    width:250px;
+    position: relative;
+    top: -19230px;
+    left: 820px;
+    border-radius: 20px;
+    overflow: hidden;
+  }
+
+  .imag25{
+    float: left;
+    height:900px;
+    width:250px;
+    position: relative;
+    top: -19080px;
+    left: 580px;
+    border-radius: 20px;
+    overflow: hidden;
+  }
+
+  .i2{
+    float: left;
+    height:160px;
+    width:250px;
+    position: relative;
+    top: -18170px;
+    left: 320px;
+    border-radius: 20px;
+    overflow: hidden;
+  }
+
+  .imag26{
+    float: left;
+    height:400px;
+    width:250px;
+    position: relative;
+    top: -18020px;
+    left: 80px;
+    border-radius: 20px;
+    overflow: hidden;
+  }
+
+  .i3{
+    float: left;
+    height:150px;
+    width:250px;
+    position: relative;
+    top: -18000px;
+    left: 330px;
+    border-radius: 20px;
+    overflow: hidden;
+  }
